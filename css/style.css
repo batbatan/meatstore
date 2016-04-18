@@ -1,0 +1,152 @@
+body
+{
+  background: #FFFFFF url('../images/page.png') fixed;
+} 
+
+form 
+{
+ border:1px rgb(224,224,224); 
+ vertical-align: middle; 
+ padding: 5px; 
+ position: relative;
+ height:50px;
+}
+
+/* fieldset{ border: 1px solid rgb(255,232,57); width: 100px; float: left;}	*/
+
+fieldset
+{
+  border: 1px solid rgb(224,224,224);
+}	
+
+label
+{
+  color:rgb(96,96,96);
+  font-weight:bold;
+}
+
+/* buttons*/
+
+input ,button,select
+{
+   cursor:pointer;
+}
+
+.button1
+{	
+     height: 37px;
+     width: 170px;
+	 background: rgb(224,224,224); 
+}
+
+.button1 :hover
+{
+  background:#848484;
+  color: #000000;
+  border: 1px;
+}	 
+
+.button2
+{	
+  height: 37px;
+  width: 100px;
+  background:rgb(224,224,224); 
+}
+
+.button2:hover
+{
+ color: #ffffff;
+ border:bold 2px solid;
+ border-color:  #efefef;
+ background-color:rgb(146,146,146);
+}
+
+select
+{	
+  height: 37px;
+  width: 200px;
+  background:rgb(224,224,224); 
+}
+
+select:hover
+{	
+ border-color: #efefef; 
+}
+
+.wrapper  
+{
+  padding: 1px;    
+  margin:0; 	 
+}
+
+.wrapper li
+{
+  list-style:none;	
+}	 
+
+/* table */
+
+table
+{
+ width:100%;
+ vertical-align: middle;
+ margin-top: 20px; 
+ border: 1px  rgb(224,224,224);
+}
+ 
+td{
+ border: 1px solid rgb(224,224,224);
+ }
+	
+th
+{
+ border: 1px solid rgb(224,224,224);
+ background:#efefef;
+}
+
+h5
+{
+ margin-top: 15px;
+ height: 100%;
+ position:relative;
+ text-align:left;
+ vertical-align: bottom;
+}
+
+/* datepicker */
+
+.ui-datepicker
+ {
+    font-family:Garamond;
+    font-size: 11px;
+    margin-left:10px
+}
+
+#datepicker_from
+{
+  /* margin-left:30px;*/
+   height: 37px; 
+   width: 80px; 
+   background:rgb(224,224,224); 
+   text-align:center; 
+   font-weight:bold;
+}
+
+#datepicker_to
+{
+  height: 37px; 
+  width: 80px; 
+  background:rgb(224,224,224); 
+  text-align:center; 
+  font-weight:bold;
+}
+
+#datepicker_from:hover
+{
+  color:rgb(96,96,96);
+}
+
+#datepicker_to:hover
+{
+ color:rgb(96,96,96);
+}
